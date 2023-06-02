@@ -54,13 +54,15 @@ body {
   color: #222;
 }
 
-#form-container #btn {
+#form-container #btn, 
+#form-container input[type='checkbox']:checked {
   background-color: #6C63FF;
   border-color: #6C63FF;
 }
 
 #btn {
   width: 100%;
+  margin-top: 25px;
 }
 
 @media(min-width: 768px) {
